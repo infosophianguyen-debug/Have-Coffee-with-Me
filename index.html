@@ -163,12 +163,13 @@
     .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
 
     .btn-dark {
-      background: var(--ink); color: var(--cream);
-      padding: 0.7rem 1.75rem;
-      font-family: var(--sans); font-size: 12px;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      border: none; cursor: pointer; border-radius: 1px;
-      transition: opacity 0.2s;
+       background: #0D3B66; color: #FAF0CA;
+  padding: 0.7rem 1.75rem;
+  font-family: var(--sans); font-size: 12px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  border: none; cursor: pointer; border-radius: 0;
+  transition: opacity 0.2s;
+}
     }
     .btn-dark:hover { opacity: 0.78; }
 
@@ -536,9 +537,7 @@
         <h1 class="hero-name">Hello,<br>I'm <em>[Sophi Élise ].</em></h1>
         <p class="hero-tagline">A Palm Beach based writer and creative - curating a space where style meets storytelling.</p>
         <div class="hero-cta">
-          <button class="yale-blue" onclick="show('the-edit')">View my work</button> .btn-rect {
-  border-radius: 0;
-}
+          <button class="yale-blue" onclick="show('the-edit')">View my work</button>
           <button class="lemon-blue" onclick="show('contact')">Get in touch</button>
         </div>
       </div>
